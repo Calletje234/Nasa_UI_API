@@ -19,5 +19,3 @@ class MainScreen(QWidget):
         main_frame.addLayout(option_creator.get_frame())
         main_frame.addLayout(button_creator.get_frame(self))
         return main_frame
-
-

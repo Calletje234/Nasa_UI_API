@@ -85,6 +85,18 @@ class OptionGather:
                 self.date_dateEntry.setEnabled(False)
                 self.date = 0
 
+    def get_lat_entrie(self):
+        return self.lat_entrie.text()
+
+    def get_lon_entrie(self):
+        return self.lon_entrie.text()
+
+    def get_dimensions_entrie(self):
+        return self.dimensions_entrie.text()
+    
+    def get_date_entrie(self):
+        return self.date_dateEntry.text()
+
     def get_frame(self):
         self.create_checkbox()
         self.create_entrie()
